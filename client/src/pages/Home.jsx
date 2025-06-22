@@ -5,6 +5,7 @@ import WhyChooseCoolAir from '../components/Home/WhyChooseCoolAir';
 import Specifications from '../components/Home/Specifications';
 import ComfortSection from '../components/Home/ComfortSection';
 import HappinessSection from '../components/Home/HappinessSection';
+import ReviewsSection from '../components/Home/ReviewsSection';
 
 const Home = () => {
     return (
@@ -15,6 +16,7 @@ const Home = () => {
             <ComfortSection/>
             <Specifications/>
             <HappinessSection/>
+            <ReviewsSection/>
         </div>
     );
 };
